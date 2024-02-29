@@ -8,7 +8,7 @@ def process_and_print(input_string):
     input_data.sort(reverse=True)
   
     # Print sorted integers
-    print(" ".join(input_data))
+    print(" ".join(input_data), end=" ")
     
     
 

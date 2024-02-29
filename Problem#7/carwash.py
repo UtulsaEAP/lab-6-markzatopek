@@ -14,7 +14,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     print("Base car wash - $10")
     if s1: print(f"{service_choice1} - ${p1}")
     if s2: print(f"{service_choice2} - ${p2}")
-    print("Total price: $" + total)
+    print(f"Total price: ${total}")
 
     
 if __name__ == '__main__':

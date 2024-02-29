@@ -1,5 +1,5 @@
 def process_user_contacts(user_input):
-    user_contacts = {name: number for name,number in [element.split(",") for element in user_input.split()]}
+    user_contacts = {token[0]: token[1] for token in [element.split(",") for element in user_input.split()]}
 
     # Get contact name from input, output contact's phone number
     contact_name = input("Enter the contact name: ")
